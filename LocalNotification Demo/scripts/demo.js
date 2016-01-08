@@ -104,7 +104,8 @@
         },
 
         getNowPlus10Seconds: function () {
-            return new Date(new Date().getTime() + 10*1000);
+            // actually 5 minutes now
+            return new Date(new Date().getTime() + 5*60*1000);
         },
 
         checkSimulator: function() {
